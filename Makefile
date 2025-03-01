@@ -1,5 +1,5 @@
 start:
-	pipenv run flask run # runs flask app
+	pipenv run flask run
 db-migrate:
 	pipenv run flask db migrate # creates the migration file
 db-upgrade:
